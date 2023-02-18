@@ -1,0 +1,153 @@
+// Fonts & Reset
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import './reset.scss';
+
+//
+// Theme Starts Here
+//
+@import './style-global.scss';
+@import './mixin.scss';
+@import './variables.scss';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css");
+
+//
+// Theme Starts Here
+//
+.hero {
+  background-image: url(../assets/hero-bg.jpg);
+  background-size: cover;
+  .container {
+    height: 500px;
+    position: relative;
+  }
+}
+
+.client-header__logo,
+.client-footer__logo {
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+}
+
+.panel.banner {
+  .container {
+    padding: 20px;
+    padding-left: 0;
+  }
+}
+
+.content-area {
+  .container {
+    padding-top: 40px;
+
+    h5 {
+      text-transform: uppercase;
+      font-size: 0.6rem;
+      font-weight: 800;
+    }
+
+    h3 {
+      font-weight: 300;
+    }
+  }
+}
+
+.hero__callout {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.client-header__links {
+  float: right;
+
+  .client-header__link {
+    padding-right: 10px;
+  }
+
+  .btn-secondary {
+    border-radius: 0;
+  }
+}
+
+.hero__content {
+  .hero__title {
+    font-weight: 300;
+  }
+
+  width: 45%;
+  top: 150px;
+  right: 50px;
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+}
+
+.hero__buttons {
+  .btn-primary {
+    padding: 4px 90px 4px 90px;
+    border-radius: 0;
+    background-color: $bg-color;
+    border-color: $bg-color
+  }
+
+  .btn-secondary {
+    padding: 4px 67px 4px 67px;
+    border-radius: 0
+  }
+}
+
+.hero__content .form-field-type-text {
+  width: 100%;
+  margin-bottom: 8px
+}
+
+.btn-block {
+  border-radius: 0;
+  margin-top: 5px;
+}
+
+.panel.banner {
+  h1 {
+    font-weight: 200;
+  }
+}
+
+.panel.client-header {
+  padding: 20px;;
+}
+
+.client-footer__links {
+  margin: 20px 0;
+
+  a {
+    padding-right: 10px;
+  }
+}
+
+.btn-secondary {
+  background-color: #007bff;
+}
+
+.banner .container {
+  display: flex;
+}
+
+.fa-book {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.panel.banner {
+  background-color: $content-bg-color;
+  color: #fff;
+}
+
+.content-area {
+  position: relative;
+  background-color: rgb(195, 216, 234);
+}
+
+.card {
+  margin: 5px;
+  padding: 8px;
+}
